@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>first Assignment</title>
+</head>
+<body ng-app='LunchCheck'>
+    <div ng-controller='LunchCheckController'>
+        <h2>Please list what you usually eat for lunch .</h2>
+        <input type="text" ng-model="item" >
+        <br>
+        <button ng-click="IsTooMuch()"> Check If Too Much </button>
+        <br>
+        {{massage}}
+
+    </div>
+</body>
+</html>
