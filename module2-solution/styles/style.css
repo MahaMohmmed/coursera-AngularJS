@@ -1,0 +1,33 @@
+
+      .emptyMessage {
+        font-weight: bold;
+        color: red;
+        font-size: 1.2em;
+      }
+      li {
+        margin-bottom: 7px;
+        font-size: 1.2em;
+      }
+      li > button {
+        margin-left: 6px;
+      }
+      button > span {
+        color: green;
+      }
+body{
+  background-color: antiquewhite;
+}
+.cardcontainer{
+  display: flex;
+
+}
+.card{
+  width: 100vh;
+  display: inline-table;
+}
+li{
+  display: inline-grid;
+}
+button{
+  min-width: 200px;
+}
